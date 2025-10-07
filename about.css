@@ -1,0 +1,225 @@
+  body {
+      background-color: #00558e;
+      font-family: fantasy;
+      text-align: center;
+      cursor: url("Images/cursor.cur"), auto;
+  }
+
+  .tag {
+      width: 75px;
+      height: 75px;
+      padding: 10px;
+      float: left;
+      margin-top: -85px;
+
+  }
+
+
+  .body {
+      float: left;
+      width: 45%;
+      margin-left: 354px;
+      margin-top: 146px;
+  }
+
+  img {
+      margin-top: -122px;
+      margin-right: -92px;
+      width: 100%;
+  }
+
+  h1,
+  h6 {
+      color: white;
+  }
+
+  h6 {
+      font-family: cursive;
+  }
+
+  li {
+      background-color: dodgerblue;
+      width: auto;
+      list-style-type: none;
+      font-size: 17px;
+      padding: 8px 16px;
+
+  }
+
+  a {
+      color: white;
+
+
+  }
+
+
+  a:visited {
+      color: mediumvioletred;
+
+
+
+  }
+
+  ul li:hover {
+      background: #00356B;
+      box-shadow: 0 0 10px black, 0 0 40px black;
+  }
+
+  .c {
+      color: gray;
+      text-decoration-style: wavy;
+  }
+
+  .c:visited {
+      color: lightgray;
+  }
+
+  .c:hover {
+      color: mediumvioletred;
+  }
+
+  #cr {
+      color: black;
+      font-family: fantasy;
+  }
+
+
+
+  .nav {
+      float: right;
+      width: 125px;
+      margin-right: 100px;
+      margin-top: 200px;
+      z-index: -1;
+  }
+
+
+  P {
+      font-family: cursive;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+
+  }
+
+
+  form {
+
+      margin: 0 auto;
+      margin-bottom: 15px;
+      width: 450px;
+      padding: 1em;
+      border: 5px solid black;
+      border-radius: .5em;
+  }
+
+
+
+
+  label {
+
+
+
+      text-align: center;
+  }
+
+  input,
+  textarea {
+      font: 1em oswald;
+      padding: 2px;
+      margin-top: 1%;
+      width: 350px;
+      box-sizing: border-box;
+      border: 1px solid black;
+  }
+
+  input:focus,
+  textarea:focus {
+      border-color: darkviolet;
+  }
+
+  textarea {
+      vertical-align: top;
+      height: 5em;
+  }
+
+
+
+  ::-webkit-scrollbar {
+      width: 15px;
+  }
+
+
+  ::-webkit-scrollbar-track {
+
+      border-radius: 20px;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+      background: dodgerblue;
+      border-radius: 10px;
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: mediumvioletred;
+  }
+
+  @media only screen and (max-width:1030px) {
+      .tag {
+          float: none;
+          width: 10%;
+          height: 10%;
+      }
+
+      h1 {
+          margin-left: 3.5%;
+      }
+
+      p,
+      label {
+          font-size: 0.7em;
+      }
+
+      ul {
+
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+      }
+
+      .email {
+
+          margin-bottom: 11%;
+          background-color: white;
+      }
+
+      li {
+          font-size: 1em;
+          flex-basis: 8%;
+      }
+
+      .nav {
+          margin-left: -21px;
+          float: none;
+      }
+
+      h6,
+      img,
+      p {
+          margin-left: -360px;
+          margin-right: 0px;
+      }
+
+      body {
+          clear: both;
+      }
+
+      form {
+          margin-bottom: 25px;
+          margin-left: -300px;
+      }
+
+
+  }
